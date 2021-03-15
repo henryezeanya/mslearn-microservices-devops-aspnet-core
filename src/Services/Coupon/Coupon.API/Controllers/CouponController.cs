@@ -54,7 +54,7 @@
 
             var couponDto = _mapper.Translate(coupon);
 
-            _logger.LogInformation("Applying Henry Ezeanya coupon {CouponCode}", code);
+            _logger.LogInformation("This is Henry Ezeanya coupon {CouponCode}", code);
 
             return couponDto;
         }
